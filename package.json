@@ -1,0 +1,28 @@
+{
+  "name": "invisible-erc721",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "truffle test",
+    "dev": "truffle migrate --reset",
+    "ropsten": "truffle migrate --network ropsten",
+    "rinkeby": "truffle migrate --network rinkeby"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.1.0",
+    "@truffle/hdwallet-provider": "^1.4.0",
+    "config": "^3.3.6"
+  },
+  "devDependencies": {
+    "@openzeppelin/test-helpers": "^0.5.11",
+    "chai": "^4.3.4",
+    "prettier": "^2.3.0",
+    "solc": "^0.8.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
